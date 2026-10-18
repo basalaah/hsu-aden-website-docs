@@ -7,68 +7,100 @@ A responsive organizational website and content-managed blog developed for the H
 **Framework:** Next.js  
 **Language:** TypeScript  
 **Styling:** Tailwind CSS and custom CSS  
-**Content Management:** Sanity CMS  
+**CMS:** Sanity  
 **Source Code:** Private
 
 ## Overview
 
-The HSU Aden website was developed to establish an online presence for the Hadhramout Student Union in Aden, introduce the organization and its leadership, and provide a central platform for publishing news, activities, and event reports.
+The Hadhramout Student Union needed an official website to introduce the organization, present its leadership and partners, publish activities and news, and provide a way for visitors to contact the union.
 
-A key requirement was to allow non-technical staff to manage website content without needing to edit source code. Sanity CMS was integrated to support content management for selected website sections, blog articles, and information submitted through the website.
+A key requirement was that non-technical staff should be able to manage website content without editing code. I developed the website using Next.js and integrated Sanity CMS to support content management for selected sections and visitor submissions.
 
-The website was designed to be responsive and accessible across desktop, tablet, and mobile devices.
+The website combines an organizational portfolio with a blog, providing a central platform for the union's public information and activities.
 
-## Key Features
+## Features
 
-- **Organizational homepage:** Presents the union through a hero section featuring recently published activities, an introduction, executive management members, testimonials, and partner organizations.
-- **About page:** Provides information about the union and its identity.
-- **Blog and activities:** Displays published articles and reports about the union's activities.
-- **Article detail pages:** Present individual articles with detailed content and image galleries.
-- **Content management:** Allows authorized non-technical staff to update supported content through Sanity CMS.
-- **Dynamic testimonials:** Enables testimonial content to be managed through the CMS without editing application code.
-- **Dynamic partners section:** Supports updating partner information through the CMS.
-- **Contact form:** Allows visitors to submit requests that the site manager can review in the CMS.
-- **Newsletter subscriptions:** Collects email subscriptions through the website and stores the subscription records in Sanity.
-- **Responsive design:** Adapts the website layout to different screen sizes.
-- **Custom styling:** Combines Tailwind CSS with custom CSS to implement the website's visual design.
+### Homepage
+- Hero section highlighting recently published activities.
+- Introduction to the union.
+- Executive management members section.
+- Testimonials managed through Sanity CMS.
+- Partner organizations managed through Sanity CMS.
+
+### About Us
+Provides visitors with information about the union, its identity, and its work.
+
+### Blog and Activities
+- Displays published articles and activity reports.
+- Provides a dedicated detail page for each article.
+- Supports article content and image galleries.
+- Allows authorized staff to manage published content through Sanity CMS.
+
+### Contact Us
+Provides a contact form through which visitors can submit requests. The site manager can review submitted requests through the CMS.
+
+### Newsletter Subscription
+Allows visitors to subscribe using their email addresses. Subscription records are collected and stored in Sanity.
+
+### Responsive Design
+The website adapts its layout to desktop, tablet, and mobile screens.
 
 ## Technology Stack
 
-- **Framework:** Next.js
-- **Programming Language:** TypeScript
-- **Styling:** Tailwind CSS and custom CSS
-- **Content Management System:** Sanity CMS
-- **Version Control:** Git and GitHub
+- **Next.js:** Website framework and page rendering.
+- **TypeScript:** Application development with static typing.
+- **Tailwind CSS:** Utility-first styling.
+- **Custom CSS:** Additional styling and visual refinements.
+- **Sanity CMS:** Content management for supported website sections and submissions.
+- **Git and GitHub:** Version control and project workflow.
 
-## Content Management
+## Technical Highlights
 
-The website separates application code from content that authorized staff need to maintain.
+### CMS-Driven Content
 
-Using the Sanity content management interface, the site manager can manage supported content without modifying the website's source code. This includes blog articles, testimonials, partner information, and submitted contact requests.
+The website separates application code from content that staff need to update regularly. Supported content can be managed through Sanity without requiring changes to the frontend source code.
 
-Newsletter subscription records are also collected through the website and stored in Sanity.
+This includes blog articles, testimonials, partner information, contact submissions, and newsletter subscription records.
+
+### Dynamic Homepage Sections
+
+Recently published activities are used to highlight content on the homepage. Testimonials and partner information are also managed through the CMS, allowing these sections to be updated without hardcoding their content into the application.
+
+### Content Publishing Workflow
+
+The blog provides a publishing platform for the union's activities. Each article has its own detail page, including article content and an image gallery.
 
 ## My Contribution
 
-I designed and developed the website to meet the union's requirements for a responsive online presence and an easy-to-maintain publishing platform.
+I developed the website to meet the union's requirements for an official online presence and a content-management experience suitable for non-technical staff.
 
-My work included implementing the website's pages and reusable interface sections, integrating Sanity CMS, connecting dynamic content to the frontend, and building the blog and article-detail experience.
+My work included:
 
-The project demonstrates my experience with Next.js, TypeScript, Tailwind CSS, CMS integration, and building websites that non-technical teams can manage.
-
-## Documentation
-
-- [System Architecture](docs/architecture.md)
-- [Features and User Workflows](docs/features.md)
-- [Development Process](docs/development-process.md)
+- Building the website using Next.js and TypeScript.
+- Implementing the page layouts and reusable interface sections.
+- Integrating Sanity CMS with the frontend.
+- Connecting CMS-managed content to the homepage and blog.
+- Implementing article detail pages and image galleries.
+- Developing the contact and newsletter subscription interfaces.
+- Styling the website using Tailwind CSS and custom CSS.
+- Implementing responsive layouts for different screen sizes.
 
 ## Screenshots
 
-Screenshots of the homepage, blog, article pages, and CMS-managed content can be added to the `assets/screenshots/` directory.
+Screenshots of the website and its CMS-managed features are available in [`assets/screenshots/`](assets/screenshots/).
+
+Suggested screenshots:
+- Homepage
+- Blog listing
+- Article detail page
+- Mobile layout
+- Sanity CMS content-management interface
+
+Only genuine screenshots of the project should be included. Any personal information or confidential data should be removed before publication.
 
 ## Source Code
 
-The website's source code is maintained privately. This repository documents the project's purpose, architecture, features, and development process without exposing private implementation details.
+The source code is maintained in a private repository. This public repository documents the project, its technical implementation, key features, and my contribution without exposing private source code.
 
 ## Links
 
