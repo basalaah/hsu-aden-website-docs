@@ -87,7 +87,7 @@ My work included:
 
 ## Screenshots
 
-Screenshots of the website available in /screenshots/`](/screenshots/).
+Screenshots of the website are available in the [`screenshots/`](screenshots/) directory.
 
 ## Source Code
 
