@@ -87,16 +87,7 @@ My work included:
 
 ## Screenshots
 
-Screenshots of the website and its CMS-managed features are available in [`assets/screenshots/`](assets/screenshots/).
-
-Suggested screenshots:
-- Homepage
-- Blog listing
-- Article detail page
-- Mobile layout
-- Sanity CMS content-management interface
-
-Only genuine screenshots of the project should be included. Any personal information or confidential data should be removed before publication.
+Screenshots of the website available in /screenshots/`](/screenshots/).
 
 ## Source Code
 
