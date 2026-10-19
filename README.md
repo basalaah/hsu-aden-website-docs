@@ -12,9 +12,9 @@ A responsive organizational website and content-managed blog developed for the H
 
 ## Overview
 
-The Hadhramout Student Union needed an official website to introduce the organization, present its leadership and partners, publish activities and news, and provide a way for visitors to contact the union.
+The Hadhramout Student Union needed an official website to introduce the organization, present its leadership and partners, publish activities and news, and provide a way for visitors to contact t[...]
 
-A key requirement was that non-technical staff should be able to manage website content without editing code. I developed the website using Next.js and integrated Sanity CMS to support content management for selected sections and visitor submissions.
+A key requirement was that non-technical staff should be able to manage website content without editing code. I developed the website using Next.js and integrated Sanity CMS to support content man[...]
 
 The website combines an organizational portfolio with a blog, providing a central platform for the union's public information and activities.
 
@@ -64,7 +64,7 @@ This includes blog articles, testimonials, partner information, contact submissi
 
 ### Dynamic Homepage Sections
 
-Recently published activities are used to highlight content on the homepage. Testimonials and partner information are also managed through the CMS, allowing these sections to be updated without hardcoding their content into the application.
+Recently published activities are used to highlight content on the homepage. Testimonials and partner information are also managed through the CMS, allowing these sections to be updated without ha[...]
 
 ### Content Publishing Workflow
 
@@ -89,9 +89,13 @@ My work included:
 
 Screenshots of the website are available in the [`screenshots/`](screenshots/) directory.
 
+Dark homepage (dark theme):
+
+![Homepage — Dark](screenshots/homePage%20dark.png)
+
 ## Source Code
 
-The source code is maintained in a private repository. This public repository documents the project, its technical implementation, key features, and my contribution without exposing private source code.
+The source code is maintained in a private repository. This public repository documents the project, its technical implementation, key features, and my contribution without exposing private source[...]
 
 ## Links
 
